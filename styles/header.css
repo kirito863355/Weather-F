@@ -1,0 +1,130 @@
+#toggle-header {
+    position: fixed;
+    top: 90%;
+    left: 20px;
+    z-index: 1000;
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 27px;
+  }
+  
+  .vertical-header {
+    width: 400px;
+    background-size: cover;
+    background-image: url(https://i.pinimg.com/originals/04/6f/51/046f5145ae962d44679c45198909043a.gif);
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    position: fixed;
+    left: -400px;
+    top: 0;
+    height: 100%;
+    transition: left 0.3s ease;
+    z-index: 1;
+    box-shadow: 4px 8px 16px rgb(0, 0, 0);
+  }
+  
+  .w-search {
+    width: 70%;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .vertical-header ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .vertical-header ul li {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  .vertical-header ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    display: block;
+    width: 100%;
+    border-radius: 4px;
+  }
+  
+  .vertical-header ul li a:hover {
+    background-color: #ffffff;
+    border: none;
+    color: black;
+  }
+  
+  .content {
+    margin-left: 50%;
+    display: flex;
+    margin-left: 0%;
+    position: relative;
+    text-align: center;
+    flex-direction: column;
+  }
+  
+  section {
+    margin: 50px 0;
+  }
+  
+  section h1 {
+    font-size: 2em;
+  }
+  
+  .forecast {
+    margin-top: 15px;
+  }
+  
+  .forecast-day {
+    margin-bottom: 15px;
+  }
+  
+  .search {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 15px;
+  }
+  
+  .get-weather {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background-color: rgb(130, 191, 219);
+    color: #f8f5f5;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  .get-weather:hover {
+    background-color: rgb(70, 104, 119);
+    color: #f8f5f5;
+  }
+  
+  #locationForm {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  
+  .hr1 {
+    box-shadow: 2px 4px 8px rgb(59, 59, 59);
+    color: aliceblue;
+  }
+  
+  .hr2 {
+    box-shadow: 2px 4px 8px rgb(59, 59, 59);
+    color: rgb(141, 141, 141);
+  }
+  
+  .forecast-day {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
