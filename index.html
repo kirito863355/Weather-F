@@ -7,15 +7,35 @@
     <!-- <link rel="shortcut icon" href="" type="image/x-icon"> --> 
     <link rel="stylesheet" href="./styles/adaptation.css">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/header.css">
 </head>
 <body>
 
     <header>
-        <button id="btn">click</button>
+        <button class="btn-cl" id="btn">click</button>
         <input class="right-element" id="search" type="text">
     </header>
-
-    <aside></aside>
+    <button id="toggle-header" class="button-down">☰</button>
+    <div class="vertical-header">
+        <div class="w-search">
+          <form id="locationForm">
+            <input
+              type="text"
+              id="locationInput"
+              placeholder="Enter location"
+              required
+              class="search"
+            />
+            <button type="submit" class="get-weather">GET</button>
+          </form>
+          <hr class="hr1" />
+        </div>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
 
     <main>
         <div class="container">
@@ -126,7 +146,7 @@
         This is a weather forecast website
     </footer>
     
-
+    <script src="./scripts/side-header.js"></script>
     <script src="./scripts/base.js"></script>
     <script src="./scripts/weatherApi.js"></script>
 
